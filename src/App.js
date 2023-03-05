@@ -3,6 +3,7 @@ import './App.css';
 import IdCard from "./components/IdCard"
 import Greetings from './components/Greetings';
 import Random from './components/Random';
+import BoxColor from './components/BoxColor';
 
 function App() {
   return (
@@ -36,8 +37,13 @@ function App() {
       </div>
 
       {/* Iteration 3 */}
-      <div>
+      {/* <div>
         <Random minNumber={1} maxNumber={45}/>
+      </div> */}
+
+      {/* Iteration 4 */}
+      <div>
+        <BoxColor red={0} green={255} blue={10}/>
       </div>
     </div>
   );
