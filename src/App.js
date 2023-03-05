@@ -1,19 +1,43 @@
 import logo from './logo.svg';
 import './App.css';
-import IdCard from './components/IdCard';
-
+import IdCard from "./components/IdCard"
+import Greetings from './components/Greetings';
 
 function App() {
   return (
     <div className="App">
-      <IdCard
-        firstName="Max"
-        lastName="Ko"
-        gender="Male"
-        height="1.78"
-        birthDate="08/09/1998"
-        image="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-      />
+
+      {/* Iteration 1 */}
+      {/* <div>
+        <IdCard
+          firstName="John"
+          lastName="Doe"
+          gender="Male"
+          height="1.78"
+          birthDate="14/07/1992"
+          image="https://randomuser.me/api/portraits/men/2.jpg"
+        />
+        <IdCard 
+          firstName="Delores"
+          lastName="Obrien"
+          gender="female"
+          height={168}
+          birthDate="11/05/1988"
+          image="https://randomuser.me/api/portraits/women/10.jpg"
+        />
+      </div> */}
+
+      {/* Iteration 2 */}
+      <div>
+        {/* you may choose between german, french, italian, spanish, english, portuguese, and hebrew */}
+
+        <Greetings lang = "es"> Ludwig </Greetings>
+      </div>
+
+      {/* Iteration 3 */}
+      <div>
+
+      </div>
     </div>
   );
 }
