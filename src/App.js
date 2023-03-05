@@ -64,7 +64,7 @@ function App() {
 
       {/* Iteration 6 */}
       <div>
-        <Rating>2.7</Rating>
+        <Rating>3.6</Rating>
         
       </div>
 
