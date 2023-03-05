@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import IdCard from "./components/IdCard"
 import Greetings from './components/Greetings';
+import Random from './components/Random';
 
 function App() {
   return (
@@ -31,12 +32,12 @@ function App() {
       <div>
         {/* you may choose between german, french, italian, spanish, english, portuguese, and hebrew */}
 
-        <Greetings lang = "es"> Ludwig </Greetings>
+        <Greetings lang = "it"> Bambina </Greetings>
       </div>
 
       {/* Iteration 3 */}
       <div>
-
+        <Random minNumber={1} maxNumber={45}/>
       </div>
     </div>
   );
