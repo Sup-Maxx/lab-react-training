@@ -5,6 +5,7 @@ import Greetings from './components/Greetings';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
+import Rating from './components/Rating';
 
 function App() {
   return (
@@ -38,17 +39,17 @@ function App() {
       </div>
 
       {/* Iteration 3 */}
-      <div>
+      {/* <div>
         <Random minNumber={1} maxNumber={45}/>
-      </div>
+      </div> */}
 
       {/* Iteration 4 */}
-      <div>
+      {/* <div>
         <BoxColor red={0} green={255} blue={10}/>
-      </div>
+      </div> */}
 
       {/* iteration 5 */}
-      <div>
+      {/* <div>
         <CreditCard 
           type="Visa"
           number="0123456789010995"
@@ -59,7 +60,14 @@ function App() {
           bgColor = "darkblue"
           color="white"
         />
+      </div> */}
+
+      {/* Iteration 6 */}
+      <div>
+        <Rating>2.7</Rating>
+        
       </div>
+
     </div>
   );
 }
