@@ -6,6 +6,7 @@ import Random from './components/Random';
 import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
+import DriverCard from './components/DriverCard';
 
 function App() {
   return (
@@ -63,9 +64,21 @@ function App() {
       </div> */}
 
       {/* Iteration 6 */}
-      <div>
+      {/* <div>
         <Rating>3.6</Rating>
-        
+      </div> */}
+
+      {/* Iteration 7 */}
+      <div>
+        <DriverCard
+          name="Travis Kalashnick"
+          rating={2.7}
+          img="https://si.wsj.net/public/resources/images/BN-TY647_37gql_OR_20170621052140.jpg?width=620&height=428"
+          car={{
+            model: "Toyota GtR",
+            licensePlate: "OD66ER"
+          }}
+        />
       </div>
 
     </div>
