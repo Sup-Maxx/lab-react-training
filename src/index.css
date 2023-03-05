@@ -28,5 +28,27 @@ code {
   border: 2px solid black;
   display: inline-block;
   padding: 10px 20px;
-  background-color: rgb(100, 100, 100);
+}
+
+.creditCard {
+  margin-top: 15px;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 0 15px;
+}
+
+.top {
+  display: flex;
+  justify-content: right;
+}
+
+.middle {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

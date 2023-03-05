@@ -4,6 +4,7 @@ import IdCard from "./components/IdCard"
 import Greetings from './components/Greetings';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
+import CreditCard from './components/CreditCard';
 
 function App() {
   return (
@@ -37,13 +38,27 @@ function App() {
       </div>
 
       {/* Iteration 3 */}
-      {/* <div>
+      <div>
         <Random minNumber={1} maxNumber={45}/>
-      </div> */}
+      </div>
 
       {/* Iteration 4 */}
       <div>
         <BoxColor red={0} green={255} blue={10}/>
+      </div>
+
+      {/* iteration 5 */}
+      <div>
+        <CreditCard 
+          type="Visa"
+          number="0123456789010995"
+          month={3}
+          year={2021}
+          bank = "N26"
+          owner = "Maxeen Bouret"
+          bgColor = "darkblue"
+          color="white"
+        />
       </div>
     </div>
   );
